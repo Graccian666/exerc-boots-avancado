@@ -1,11 +1,10 @@
 section{
-    padding-bottom: 40px;
     padding-top: 40px;
     background-color: rgb(40, 81, 143);
 }
 
 .titulo-site{
-    color: red;
+    color: rgb(40, 81, 143);
     font-family: Anton, sans-serif;
     font-size: 64px;
 }
@@ -13,6 +12,7 @@ section{
 .titulo-secao{
     color: #ffffff;
     border-bottom: solid 4px red ;
+    margin-top: 70px;
 }
 
 .card{
@@ -26,14 +26,15 @@ section{
 }
 
 .navbar{
-    background-color: #ffffff;
+    background-color: #dbdada;
 }
 
 header{
-    padding: 16px;
-    background-color: #ffffff;
+    padding: 0px;
+    background-color: #dbdada;
     border-bottom: solid 4px red;
     position: initial;
+    z-index: 1000;
 }
 
 
@@ -45,6 +46,7 @@ header{
 
 .nav-link{
     text-align: center;
+    font-weight: bold;
 }
 
 .contato-opcao{
@@ -70,16 +72,38 @@ header{
 }
 
 .contato-number{
-    color: white;
-    border-bottom: solid 1px red;
+    color: #dbdada;
+    padding: bottom 8px;
 }
 
 footer{
-    background-color: white;
+    background-color: rgb(221, 221, 221);
     padding: 32px;
 }
 
 .container-footer{
     display: block;
     text-align: center;
+}
+
+.bar-fina{
+    border-bottom:solid 1px red ;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.carousel-slider-loja{
+    position: relative;
+}
+
+.carousel-item{
+    max-height: 635px;
+}
+
+.card-text{
+    justify-content: center;
 }
