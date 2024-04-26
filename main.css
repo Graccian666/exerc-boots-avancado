@@ -6,6 +6,7 @@ section{
 .titulo-site{
     color: rgb(40, 81, 143);
     font-size: 64px;
+    font-family: Anton, sans-serif;
 }
 
 .titulo-secao{
@@ -111,5 +112,4 @@ header{
     padding: 8px;
     color: #ffffff;
     margin-top: 20px;
-
 }
